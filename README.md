@@ -1,5 +1,7 @@
 # Train Your Own LLM From Scratch
 
+> **About this repository.** This is a clone of the original [angelos-p/llm-from-scratch](https://github.com/angelos-p/llm-from-scratch), enhanced with comprehensive onboarding documentation. All credit for the original workshop, code structure, and conceptual chapters goes to [Angelos Perivolaropoulos](https://github.com/angelos-p). The additions in this fork are a 360° onboarding guide under [`docs/onboarding/`](docs/onboarding/README.md) — covering prerequisites, setup, an end-to-end test run, an architecture deep dive, a configuration reference, a glossary, troubleshooting, and a workshop FAQ.
+
 A hands-on workshop where you write every piece of a GPT training pipeline yourself, understanding what each component does and why.
 
 Andrej Karpathy's [nanoGPT](https://github.com/karpathy/nanoGPT) was my first real exposure to LLMs and transformers. Seeing how a working language model could be built in a few hundred lines of PyTorch completely changed how I thought about AI and inspired me to go deeper into the space.
@@ -57,6 +59,8 @@ If you don't have a local setup, upload the repo to Colab and install dependenci
 Upload `data/shakespeare.txt` to your Colab files, then write your code in notebook cells or upload `.py` files and run them with `!python train.py`.
 
 ---
+
+**New here?** The [onboarding guide](docs/onboarding/README.md) is a 360° walkthrough — prerequisites, environment setup, an end-to-end test run, an architecture deep dive, a configuration reference, a glossary, troubleshooting, and a workshop FAQ. Start there if anything below is unfamiliar.
 
 Work through the docs in order. Each part walks you through writing a piece of the pipeline, explaining what each component does and why. By the end, you'll have a working `model.py`, `train.py`, and `generate.py` that you wrote yourself.
 
