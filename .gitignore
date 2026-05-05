@@ -22,3 +22,8 @@ loss_log.json
 
 # Data (scratchpad data is ignored, top-level data/ is committed)
 scratchpad/data/
+
+# Local agent / tooling state (Claude Code, worktrees, transcripts, etc.)
+.claude/
+.ignore/
+__dot_claude_with_worktrees/
