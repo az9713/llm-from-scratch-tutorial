@@ -1,6 +1,8 @@
 # Train Your Own LLM From Scratch
 
 > **About this repository.** This is a clone of the original [angelos-p/llm-from-scratch](https://github.com/angelos-p/llm-from-scratch), enhanced with comprehensive onboarding documentation. All credit for the original workshop, code structure, and conceptual chapters goes to [Angelos Perivolaropoulos](https://github.com/angelos-p). The additions in this fork are a 360° onboarding guide under [`docs/onboarding/`](docs/onboarding/README.md) — covering prerequisites, setup, an end-to-end test run, an architecture deep dive, a configuration reference, a glossary, troubleshooting, and a workshop FAQ.
+>
+> **Companion video.** [*Training an LLM from Scratch, Locally* — Angelos Perivolaropoulos, ElevenLabs](https://www.youtube.com/watch?v=UsB70Tf5zcE&t=3487s). The live workshop recording this repository is built around. The FAQ in [`docs/onboarding/09-faq.md`](docs/onboarding/09-faq.md) is condensed from its Q&A.
 
 A hands-on workshop where you write every piece of a GPT training pipeline yourself, understanding what each component does and why.
 
